@@ -31,4 +31,4 @@ with col2:
 
 with st.sidebar:
   st.subheader("YYY")
-  mod_radio = st.radio("Escoge"), ("V","A","H")
+  mod_radio = st.radio("Escoge", ("V","A","H"))
