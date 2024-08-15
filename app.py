@@ -28,3 +28,7 @@ with col2:
     st.write("wow")
   if modo == "tactil":
     st.write("que putas")
+
+with st.sidebar:
+  st.subheader("YYY")
+  mod_radio = st.radio("Escoge"), ("V","A","H")
