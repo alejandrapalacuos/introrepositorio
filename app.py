@@ -7,4 +7,4 @@ image = Image.open("Imagen1.png")
 st.image(image, caption="Interfaces multimodales")
 
 texto = st.text_input("Escribe algo", "Este es mi texto")
-st.write("El texto escrito es: ", texto
+st.write("El texto escrito es: ", texto)
