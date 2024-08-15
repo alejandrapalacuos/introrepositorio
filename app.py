@@ -21,7 +21,7 @@ with col1:
     st.write("Epa")
 with col2:
   st.subheader("esta es la segunda")
-  modo = st.radio(Que modalidad", ("visual", "auditiva", "tactil")
+  modo = st.radio("Que modalidad", ("visual", "auditiva", "tactil"))
   if modo == "visual":
     st.write("que bien")
   if modo == "auditiva":
